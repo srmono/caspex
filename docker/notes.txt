@@ -1,0 +1,72 @@
+docker run -d -p 3307:3306 -e MYSQL_ROOT_PASSWORD=password -v //i/Training/caspex/resources/docker/data/:/var/lib/mysql/ --name mydb2 mysql:latest
+
+
+
+
+docker 
+    run 
+    -d 
+    -p 3307:3306 
+    -e MYSQL_ROOT_PASSWORD=password 
+    -v //i/Training/caspex/resources/docker/data/:/var/lib/mysql/ 
+    --name mydb2
+    mysql:latest
+
+
+Conatiners
+
+windows system 
+
+docker exec -it mydb1
+docker exec -it 9397fed bash
+
+docker build -t ustapi/mynodeapp .
+
+
+
+
+
+
+
+
+docker 
+    run 
+    -d 
+    -p 3307:3306 
+    -e MYSQL_ROOT_PASSWORD=password 
+    -v //i/Training/caspex/resources/docker/data/:/var/lib/mysql/ 
+    --name mydb2
+    mysql:latest
+
+300 containers 
+
+F -> B 
+B -> F
+B -> DB
+DB -> B 
+
+Start 
+env
+link
+network
+Stop
+--------------
+
+dockercompose
+
+service  (100 services)
+-- frontend_service
+-- backend_service
+-- db_service
+
+
+
+
+
+
+
+
+
+
+
+
